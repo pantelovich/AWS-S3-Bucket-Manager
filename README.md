@@ -57,7 +57,8 @@ A Python-based tool to manage AWS S3 buckets, including functionalities for crea
 
    ```bash
    python main.py --monitor bucket_name
-   License
+
+License:
 This project is licensed under the MIT License.
 
 markdown

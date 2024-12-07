@@ -23,43 +23,43 @@ A Python-based tool to manage AWS S3 buckets, including functionalities for crea
    ```bash
    git clone https://github.com/pantelovich/aws-s3-bucket-manager.git
    cd aws-s3-bucket-manager
-Install the dependencies:
+2. Install the dependencies:
 
    ```bash
    Copy code
    pip install boto3
-Configure AWS CLI with your credentials:
+3. Configure AWS CLI with your credentials:
 
    ```bash
    Copy code
    aws configure
    Usage
    Create a New Bucket
-To create a new S3 bucket:
+4. To create a new S3 bucket:
 
    ```bash
    Copy code
    python main.py --create bucket_name
    Delete an Existing Bucket
-To delete an S3 bucket:
+5. To delete an S3 bucket:
 
    ```bash
    Copy code
    python main.py --delete bucket_name
    Upload a File to a Bucket
-To upload a file to a specified S3 bucket:
+6. To upload a file to a specified S3 bucket:
 
    ```bash
    Copy code
    python main.py --upload --bucket bucket_name --file file_name
    Apply an IAM Policy to a Bucket
-To apply an IAM policy to a specified S3 bucket:
+7. To apply an IAM policy to a specified S3 bucket:
 
    ```bash
    Copy code
    python main.py --policy policy_name --bucket bucket_name
    Monitor S3 Bucket Usage with CloudWatch
-To monitor the usage of a bucket via CloudWatch:
+8. To monitor the usage of a bucket via CloudWatch:
 
    ```bash
    Copy code
